@@ -46,7 +46,7 @@ if args.genomes:
 	ftp.cwd('genomes/%s/bacteria' % NCBI_database)
 	dirs = ftp.nlst()
 	for genome in dirs:
-		print genome
+		print(genome)
 	sys.exit()
 	
 #Check that bacterium is in NCBI genbank/refseq
@@ -57,13 +57,13 @@ if args.bacterium:
 	pattern = args.bacterium
 	genome_match = fnmatch.filter(dirs, pattern)
 	if len(genome_match) == 0:
-		print "Bacterium %s not found in %s -----> Exiting program" % (args.bacterium, NCBI_database)
+		print("Bacterium %s not found in %s -----> Exiting program" % (args.bacterium, NCBI_database))
 		sys.exit(1)
 else:
-	print ""
-	print "Please provide bacterium name '-b'"
-	print "Exiting program"
-	print ""
+	print("")
+	print("Please provide bacterium name '-b'")
+	print("Exiting program")
+	print("")
 	sys.exit(1)
 
 #The meat of the program	
