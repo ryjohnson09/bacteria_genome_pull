@@ -20,7 +20,7 @@ If no -d argument is given, will default to **refseq**
 ###Change file type:
 `python bacteria_genome_pull -t gff -b Klebsiella_pneumoniae`
 
-This will download the .gff file for all Klbesiella pneumoniae genomes in refseq
+This will download the *gff* file for all Klbesiella pneumoniae genomes in **refseq**
 
 If no -t argument is given, will default to *fna*
 
@@ -28,13 +28,13 @@ If no -t argument is given, will default to *fna*
 ###Which genomes are available:
 `python bacteria_genome_pull -g refseq`
 
-This will provide a list of all available bacterial genomes in refseq
+This will provide a list of all available bacterial genomes in **refseq**
 
 
 ###Specify output directory:
 `python bacteria_genome_pull -b Klebsiella_pneumoniae -o path/to/foo`
 
-Will output all fna files to foo directory.
+Will output all *fna* files to foo directory.
 
 This will create foo directory if it does not exist.
 
