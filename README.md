@@ -42,16 +42,16 @@ This will create foo directory if it does not exist.
 ###Argument Options:
 |Argument      |Explanation     | Option(s)|
 |--------------|-----------|------------|
-|-b (required) |bacterium  | name of bacterium|
-|-t (optional) |file type  | fna (default)|
-|              |           | gbb  |
-|              |           | genbank   |
-|              |           | feature_table  |
-|-d (optional) |database   | refseq (default)|
-|              |           | genank   |
-|-g (optional) |available genomes | refseq (default) |
-|              |                  | genbank  |
-|-o (optional) | output directory | . (defualt) |
+|-b (required) |bacterium  |name of bacterium|
+|-t (optional) |file type  |fna (default)|
+|              |           |gbb  |
+|              |           |genbank   |
+|              |           |feature_table  |
+|-d (optional) |database   |refseq (default)|
+|              |           |genbank   |
+|-g (optional) |available genomes |refseq (default) |
+|              |                  |genbank  |
+|-o (optional) |output directory |. (defualt) |
 
 
 #Examples
